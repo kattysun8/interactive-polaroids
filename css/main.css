@@ -53,12 +53,12 @@ body {
 .polaroid:nth-child(3) {
   transform: rotate(30deg);
   z-index: 2;
-  left: 33%;
+  left: 34%;
   top: 100px;
 }
 
 .polaroid:hover {
-  z-index: 4;
+  z-index: 1000;
   transform: rotate(0);
   box-shadow: 1px 4px 30px rgba(0, 0, 0, .9);
 }
